@@ -1,0 +1,69 @@
+/* .MuiAppBar-colorPrimary {background-color:#1d1d1d!important;} */
+.main {
+  background-image: url("../../../assets/images/dashboard.jpg.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px !important;
+}
+
+.art-main {
+  background: #252525 !important;
+  color: #fafafa !important;
+}
+.main_heading {
+  margin-bottom: 20px !important;
+  h2 {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+  }
+}
+.main_container {
+  margin: 24px 35px;
+  border-radius: 10px !important;
+  background-color: #1d1d1d !important;
+}
+.red_paper {
+  background-color: #f53f4b !important;
+  padding: 20px;
+  display: flex;
+  color: #feffff !important;
+  border-radius: 25px !important;
+
+  .MuiAvatar-colorDefault {
+    color: #fafafa;
+    background-color: #f67077 !important;
+    margin: 8px 15px 0 0;
+  }
+  h6 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+}
+.yellow_paper {
+  background-color: #ffaa33 !important;
+  padding: 20px;
+  display: flex;
+  color: #feffff !important;
+  border-radius: 25px !important;
+  h6 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .MuiAvatar-colorDefault {
+    color: #fafafa;
+    background-color: #ffbf67 !important;
+    margin: 10px 15px 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .head-wallet-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .MuiAppBar-positionFixed {
+    z-index: 99 !important;
+  }
+}
